@@ -1,0 +1,23 @@
+{
+  "name": "cli-library-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/cli.js",
+  "bin": {
+    "test-cli": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.8.5",
+    "@types/yargs": "^17.0.28",
+    "typescript": "^5.2.2"
+  }
+}
