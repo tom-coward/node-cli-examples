@@ -1,6 +1,6 @@
 import { Argv } from "yargs";
 
-type RandomNumberOptions = {
+interface RandomNumberOptions {
   min: number,
   max: number
 }
