@@ -1,0 +1,17 @@
+{
+  "name": "commander",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npx tsc"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@commander-js/extra-typings": "^11.1.0",
+    "commander": "^11.1.0",
+    "typescript": "^5.2.2"
+  }
+}
