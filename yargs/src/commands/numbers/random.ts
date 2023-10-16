@@ -11,7 +11,7 @@ async function handler(options: RandomNumberOptions) {
 }
 
 // https://github.com/yargs/yargs/blob/main/docs/advanced.md#providing-a-command-module
-module.exports = {
+export = {
   command: 'random',
   describe: 'Generate a random number between min and max',
   builder: (argv: Argv<RandomNumberOptions>) => {
