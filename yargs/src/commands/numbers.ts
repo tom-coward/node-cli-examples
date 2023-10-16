@@ -4,7 +4,7 @@ function builder(yargs: any) {
     return yargs.commandDir('numbers');
 }
 
-module.exports = {
+export = {
     command: 'numbers <command>',
     describe: 'Do things with your numbers',
     builder: builder,
