@@ -8,14 +8,12 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
         step((generator = generator.apply(thisArg, _arguments || [])).next());
     });
 };
-Object.defineProperty(exports, "__esModule", { value: true });
 function handler(options) {
     return __awaiter(this, void 0, void 0, function* () {
         const randomNumber = Math.floor(Math.random() * options.max) + options.min;
         console.info(randomNumber);
     });
 }
-// https://github.com/yargs/yargs/blob/main/docs/advanced.md#providing-a-command-module
 module.exports = {
     command: 'random',
     describe: 'Generate a random number between min and max',
